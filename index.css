@@ -1,0 +1,54 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(65, 71, 81);
+}
+
+.about {
+  font-size: 10px;
+}
+.content {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sessions {
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+
+.sessions .title {
+ color: rgb(87, 95, 109);
+}
+
+.sessions .list-title {
+ font-weight: bold;
+}
+
+.sessions hr {
+ color: rgb(87, 95, 109);
+}
